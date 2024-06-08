@@ -16,6 +16,7 @@ function DisplayFullName() {
 
   return (
     <div className="container">
+        <h1>Full Name Display</h1>
       <form onSubmit={handleSubmit}>
         <label htmlFor="firstName">First Name:</label>
         <input
